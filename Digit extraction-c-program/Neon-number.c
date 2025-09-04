@@ -1,19 +1,17 @@
 #include<stdio.h>
 int main()
 {
-    int p,r,n=9,sq,s=0;
+    int r,n=9,sq,s=0;
     sq=n*n;
-    printf("enter a number : ");
-    scanf("%d",&n);
     while(sq!=0)
     {
-        r=sq%10;
-        s=s+r;
-        sq=sq/10;
+       r=sq%10;
+       s=s+r;
+       sq=sq/10;
     }
     if(n==s)
     {
-        printf("it is a neon number ");
+        printf("it is neon number ");
     }
     else
     {
