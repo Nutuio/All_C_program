@@ -3,8 +3,6 @@ int main()
 {
     int f=1,r,i,s=0,n=145,cp;
     cp=n;
-    printf("enter a number ");
-    scanf("%d",&n);
     while(n!=0)
     {
         r=n%10;

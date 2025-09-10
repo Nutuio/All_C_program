@@ -3,8 +3,6 @@ int main()
 {
     int n=47,cp,last_digit;
     cp=n;
-    printf("enter a number ");
-    scanf("%d",&n);
     while(n!=0)
     {
         last_digit=n%10;
