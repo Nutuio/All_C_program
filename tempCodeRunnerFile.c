@@ -1,23 +1,11 @@
 #include<stdio.h>
 int main()
 {
-    int p,r,n=9,sq,s=0;
-    sq=n*n;
-    printf("enter a number : ");
-    scanf("%d",&n);
-    while(sq!=0)
-    {
-        r=sq%10;
-        s=s+r;
-        sq=sq/10;
-    }
-    if(n==s)
-    {
-        printf("it is a neon number ");
-    }
-    else
-    {
-        printf("it is not a neon number ");
-    }
+    int a[5]={1,2,3,4,5};
+    printf("%d", & a[0]);
+    printf("%d", & a[1]);
+    printf("%d", & a[2]);
+    printf("%d", & a[3]);
+    printf("%d", & a[4]);
     return 0;
 }
