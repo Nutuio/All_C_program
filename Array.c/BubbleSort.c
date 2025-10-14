@@ -1,21 +1,20 @@
 #include<stdio.h>
 int main()
 {
-    int a[5]={5,3,1,2,0};
-    int i,j,min,t;
+    int a[5]={10,1,5,4,3};
+    int i,j,t;
     for(i=0;i<5;i++)
     {
-        min=i;
-        for(j=i+1;j<5;j++)
+        for(j=(i+1);j<5;j++)
         {
-            if(a[j]<a[min])
+            if(a[i]>a[j])
             {
-                min=j;
+                // swap
+               t=a[i];
+               a[i]=a[j];
+               a[j]=t;
             }
         }
-        t=a[i];
-        a[i]=a[min];
-        a[min]=t;
     }
     printf("the sorted array is :");
     for(i=0; i<5; i++)
