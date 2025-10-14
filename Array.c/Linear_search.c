@@ -11,5 +11,5 @@ int main()
             break;
         }
     }
-    printf("the linear search is : %d",index=i);
+    printf("the linear search is : %d",index);
 }
