@@ -2,8 +2,8 @@
 #include<string.h>
 int main()
 {
+    int l,i=0;
     char name[]="Notu";
-    int i=0,l;
     l=strlen(name);
     for(i=0;i<l;i++)
     {
