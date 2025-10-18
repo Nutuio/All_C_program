@@ -2,7 +2,7 @@
 #include<string.h>
 int main()
 {
-    int l,i=0;
+    int i,l;
     char name[]="Notu";
     l=strlen(name);
     for(i=0;i<l;i++)
